@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계산기</title>
+    <link rel="stylesheet" href="calculater.css" />
+    <script src="calculater.js" defer></script>
+</head>
+<body>
+  <table class="table" border="1">
+    <tr class="first-tr">
+      <th colspan="4" rowspan="2" >
+        <div class="pre-result" id="pre">0</div>
+        <div class="result" id="result">0</div>
+      </th>
+    </tr>
+    <tr class="second-tr"></tr>
+    <tr class="third-tr">
+      <td width="25%" class="clear gray" id="clear">C</td>
+      <td width="25%" class="squared gray" id="squared" >x²</td>
+      <td width="25%" class="back gray" id="back">←</td>
+      <td class ="devide orange"id="devide">/</td>
+    </tr>
+    <tr class="fourth-tr">
+      <td class="seven whiteGray" id="num-7">7</td>
+      <td class="eight whiteGray" id="num-8">8</td>
+      <td class="nine whiteGray" id="num-9">9</td>
+      <td class="multi orange" id="multiplication">X</td>
+    </tr>
+    <tr class="fifth-tr">
+      <td class="four whiteGray" id="num-4">4</td>
+      <td class="five whiteGray" id="num-5">5</td>
+      <td class="six whiteGray" id="num-6">6</td>
+      <td class="minus orange" id="minus">-</td>
+    </tr>
+    <tr class="sixed-tr">
+      <td class="one whiteGray" id="num-1">1</td>
+      <td class="two whiteGray" id="num-2">2</td>
+      <td class="three whiteGray" id="num-3">3</td>
+      <td class="plus orange" id="plus">+</td>
+    </tr>
+    <tr class="seventh-tr">
+      <td class="zero whiteGray" id="num-0" colspan="2">0</td>
+      <td class="comma whiteGray" id="comma">.</td>
+      <td class="equal orange" id="equal">=</td>
+    </tr>
+  </table>
+</body>
+</html>
